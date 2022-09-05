@@ -46,6 +46,7 @@
 (check-expect(high-brow? film1)false)
 (check-expect(high-brow? film2)false)
 (check-expect(high-brow? film3)true)
+
 ;;4
 ;;num num -> num
 ;;consume number of nominatinos from 2 films and produce the total nominations of 2 films
@@ -57,6 +58,7 @@
 (check-expect(total-nominations film1 film2)5)
 (check-expect(total-nominations film2 film3)36)
 (check-expect (total-nominations film1 film3)39)
+
 ;;5
 ;;film num-> film
 ;;consume a film and a number to produce a film with new number as nem nominations
